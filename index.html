@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Penktadienio testas 3/title>
+    <title>Penktadienio testas 3</title>
     <link rel="stylesheet" href="./css/base.css">    
     <link rel="stylesheet" href="./css/main.css">
     
@@ -13,8 +13,35 @@
     <main class="container">
         <h1>Get In Touch</h1>
         <form class="form">
-
+            <div class="form-row">
+                <label for="user" class="label"></label>
+                <input type="text" name="username" id="user" value="" required class="input" placeholder="First Name">
+            </div>
+            <div class="form-row">
+                <label for="last" class="label"></label>
+                <input class="right" type="text" name="lastname" id="last" value="" required class="input" placeholder="Last Name">
+            </div>
+            <div class="form-row">
+                <label for="email" class="label"></label>
+                <input type="email" name="email" id="email" value="" required class="input" placeholder="Email">
+            </div>
+            <div class="form-row">
+                <label for="phone" class="label"></label>
+                <input class="right" type="tel" name="phonenumber" id="phone" value="" required class="input" placeholder="Phone">
+            </div>
+            <div class="form-row xl">
+                <label for="adress" class="label"></label>
+                <input class="xl" ttype="Adress" name="adress" id="adress" value="" required class="input" placeholder="Adress">
+            </div>
+            <div class="form-row xl">
+                <label for="msg" class="label"></label>
+                <textarea rows="6" class="xl" type="text" name="message" id="msg" value="" required class="input" placeholder="Type your message here"></textarea>
+            </div>
+            <div class="form-row button">
+                <button type="submit" class="btn">Submit</button>
+            </div>
         </form>
+        <p>Thaks For Submiting!</p>
 
 
     </main>
